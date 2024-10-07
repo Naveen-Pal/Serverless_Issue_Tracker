@@ -8,9 +8,9 @@ def connect_to_db():
     """Establish a connection to the MySQL database."""
     try:
         conn = mysql.connector.connect(
-            host="mysql-15f7ba09-iitgn.g.aivencloud.com",
-            user="avnadmin",
-            password="AVNS_6wfyzI92dJdCHffXIrK",
+            host="*****",
+            user="***",
+            password="****",
             database="issues",
             port=21719,
         )
